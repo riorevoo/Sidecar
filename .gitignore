@@ -1,0 +1,54 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Database
+data/news_pipeline.db
+data/news_pipeline.db-wal
+data/news_pipeline.db-shm
+
+# Models (large binary files)
+models/
+external/
+
+# Generated outputs
+output/
+*.wav
+*.mp3
+*.mp4
+*.txt
+
+# Voice reference clips (keep out of git — can be large)
+voices/*.wav
+voices/*.mp3
+
+# Credentials
+credentials/
+*.json
+
+# Logs
+logs/*.log
+
+# Cache
+data/cache/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
